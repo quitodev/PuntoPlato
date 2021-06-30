@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_ubication_detail">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/toolbarUbication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagePoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_image_ubication"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top_card_ubication"
+                    android:layout_marginRight="@dimen/margin_sides_card_ubication"
+                    android:layout_marginLeft="@dimen/margin_sides_card_ubication"
+                    app:cardCornerRadius="@dimen/corner_card_ubication"
+                    app:cardElevation="@dimen/elevation_card_ubication"
+                    app:cardBackgroundColor="#00FFFFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/shape_card_ubication_detail">
+
+                        <TextView
+                            android:id="@+id/textName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/margin_title_ubication"
+                            android:fontFamily="@font/amatic_sc"
+                            android:gravity="center"
+                            android:paddingTop="@dimen/padding_top_title_ubication"
+                            android:paddingBottom="@dimen/padding_bottom_title_ubication"
+                            android:text="@string/ubication_title"
+                            android:textColor="@color/colorItem"
+                            android:textSize="@dimen/size_title_ubication"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                            android:id="@+id/layoutUbication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?selectableItemBackground"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/padding_layout_ubication">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_pin"/>
+                            <TextView
+                                android:id="@+id/textAddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_sides_card_ubication"
+                                android:fontFamily="@font/didact_gothic"
+                                android:gravity="start"
+                                android:paddingBottom="@dimen/padding_text_ubication"
+                                android:text="@string/ubication_address"
+                                android:textColor="@color/colorItem"
+                                android:textSize="@dimen/size_subtitle_ubication"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutSchedule"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?selectableItemBackground"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/padding_layout_ubication">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_schedule"/>
+                            <TextView
+                                android:id="@+id/textSchedule"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_sides_card_ubication"
+                                android:fontFamily="@font/didact_gothic"
+                                android:gravity="start"
+                                android:paddingBottom="@dimen/padding_text_ubication"
+                                android:text="@string/ubication_schedule"
+                                android:textColor="@color/colorItem"
+                                android:textSize="@dimen/size_subtitle_ubication"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutInstagram"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?selectableItemBackground"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/padding_layout_ubication">
+                            <ImageView
+                                android:layout_width="@dimen/size_instagram_ubication"
+                                android:layout_height="@dimen/size_instagram_ubication"
+                                android:layout_gravity="center_vertical"
+                                android:contentDescription="@string/app_name"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_camera"/>
+                            <TextView
+                                android:id="@+id/textInstagram"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_sides_card_ubication"
+                                android:paddingBottom="@dimen/padding_text_ubication"
+                                android:fontFamily="@font/didact_gothic"
+                                android:gravity="start"
+                                android:text="@string/ubication_instagram"
+                                android:textColor="@color/colorItem"
+                                android:textSize="@dimen/size_subtitle_ubication"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_ubication"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutProgressDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image_ubication"
+        android:visibility="gone"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.2"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutErrorDetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_error_ubication"
+        android:layout_gravity="bottom"
+        android:visibility="gone">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:alpha="0.7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ubication_error"
+            android:textColor="@color/colorTextButton"/>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

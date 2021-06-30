@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SPLASH SCREEN ACTIVITY -->
+    <dimen name="size_logo_splash">200dp</dimen>
+
+    <!-- MAIN ACTIVITY -->
+    <dimen name="height_logo_toolbar">30dp</dimen>
+    <dimen name="margin_logo_toolbar">20dp</dimen>
+
+    <!-- UBICATION DETAIL FRAGMENT -->
+    <dimen name="height_image_ubication">280dp</dimen>
+    <dimen name="margin_sides_card_ubication">15dp</dimen>
+    <dimen name="margin_top_card_ubication">30dp</dimen>
+    <dimen name="corner_card_ubication">4dp</dimen>
+    <dimen name="elevation_card_ubication">2dp</dimen>
+    <dimen name="margin_title_ubication">5dp</dimen>
+    <dimen name="padding_top_title_ubication">10dp</dimen>
+    <dimen name="padding_bottom_title_ubication">5dp</dimen>
+    <dimen name="size_title_ubication">30sp</dimen>
+    <dimen name="size_subtitle_ubication">18sp</dimen>
+    <dimen name="padding_layout_ubication">20dp</dimen>
+    <dimen name="size_instagram_ubication">24dp</dimen>
+    <dimen name="padding_text_ubication">3dp</dimen>
+    <dimen name="height_error_ubication">40dp</dimen>
+    <dimen name="space_ubication">30dp</dimen>
+
+    <!-- HISTORY FRAGMENT -->
+    <dimen name="margin_layout_history">15dp</dimen>
+    <dimen name="corner_card_history">4dp</dimen>
+    <dimen name="elevation_card_history">4dp</dimen>
+    <dimen name="height_logo_history">135dp</dimen>
+    <dimen name="margin_sides_logo_history">30dp</dimen>
+    <dimen name="margin_top_logo_history">20dp</dimen>
+    <dimen name="size_title_history">26sp</dimen>
+    <dimen name="height_logo_app_history">30dp</dimen>
+    <dimen name="margin_sides_logo_app_history">20dp</dimen>
+    <dimen name="margin_top_logo_app_history">5dp</dimen>
+    <dimen name="margin_card_history">10dp</dimen>
+    <dimen name="size_description_history">18sp</dimen>
+    <dimen name="height_image_history">200dp</dimen>
+    <dimen name="margin_sides_image_history">13dp</dimen>
+    <dimen name="margin_top_image_history">20dp</dimen>
+    <dimen name="margin_title_history">15dp</dimen>
+    <dimen name="height_icon_history">75dp</dimen>
+    <dimen name="margin_sides_icon_history">50dp</dimen>
+    <dimen name="margin_top_icon_history">10dp</dimen>
+    <dimen name="space_history">15dp</dimen>
+
+    <!-- CONTACT FRAGMENT -->
+    <dimen name="height_image_contact">350dp</dimen>
+    <dimen name="margin_title_contact">30dp</dimen>
+    <dimen name="size_title_contact">26sp</dimen>
+    <dimen name="margin_top_instagram_contact">30dp</dimen>
+    <dimen name="width_layout_contact">325dp</dimen>
+    <dimen name="height_layout_contact">46dp</dimen>
+    <dimen name="padding_layout_contact">10dp</dimen>
+    <dimen name="size_icon_contact">25dp</dimen>
+    <dimen name="margin_start_layout_contact">10dp</dimen>
+    <dimen name="margin_bottom_layout_contact">2dp</dimen>
+    <dimen name="size_url_contact">18sp</dimen>
+    <dimen name="margin_top_email_contact">20dp</dimen>
+    <dimen name="space_contact">30dp</dimen>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/menuUbicationFragment">
+
+    <fragment
+        android:id="@+id/menuUbicationFragment"
+        android:name="com.servirunplatomas.puntoplato.ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_menuUbicationFragment_to_menuHistoryFragment"
+            app:destination="@id/menuHistoryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_menuUbicationFragment_to_menuUbicationDetailFragment"
+            app:destination="@id/menuUbicationDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/menuUbicationDetailFragment"
+        android:name="com.servirunplatomas.puntoplato.ui.fragments.UbicationDetailFragment"
+        android:label="fragment_ubication_detail"
+        tools:layout="@layout/fragment_ubication_detail" />
+
+    <fragment
+        android:id="@+id/menuHistoryFragment"
+        android:name="com.servirunplatomas.puntoplato.ui.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_menuHistoryFragment_to_menuContactFragment"
+            app:destination="@id/menuContactFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuContactFragment"
+        android:name="com.servirunplatomas.puntoplato.ui.fragments.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+    </fragment>
+
+</navigation>

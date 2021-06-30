@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuUbicationFragment"
+        android:title="@string/menu_ubication"
+        android:icon="@drawable/ic_ubication"/>
+    <item
+        android:id="@+id/menuHistoryFragment"
+        android:title="@string/menu_history"
+        android:icon="@drawable/ic_history"/>
+    <item
+        android:id="@+id/menuContactFragment"
+        android:title="@string/menu_contact"
+        android:icon="@drawable/ic_contact"/>
+</menu>

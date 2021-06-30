@@ -1,0 +1,77 @@
+<resources>
+    <!-- APP NAME -->
+    <string name="app_name">Punto Plato</string>
+
+    <!-- MENU ITEMS -->
+    <string name="menu_ubication">Inicio</string>
+    <string name="menu_history">Iniciativa</string>
+    <string name="menu_contact">Sumate!</string>
+
+    <!-- UBICATION FRAGMENT -->
+    <string name="ubication_title">Punto Plato #0</string>
+    <string name="ubication_address">Ubicación</string>
+    <string name="ubication_instagram">Instagram</string>
+    <string name="ubication_schedule">Horario</string>
+    <string name="ubication_error">Por favor, revise su conexión a Internet!</string>
+
+    <!-- HISTORY FRAGMENT -->
+    <string name="history_title">Qué es?</string>
+    <string name="history_description">
+        Es una iniciativa solidaria “fácil, sencilla y posible” a la que podes sumarte!
+    </string>
+    <string name="history_description1">
+        Se trata de servir al otro, a quien nos necesita, compartiendo un plato más de la misma comida que prepares para tu familia.
+    </string>
+    <string name="history_description2">
+        Cocinar un plato de comida más, es decirle a esa gente, te veo, te registro, y pienso en vos.
+        \nNo es dar lo que te sobra, es preparar algo para el otro.
+        \nEs invitarlo a compartir la misma comida que preparamos para nuestras familias.
+    </string>
+    <string name="history_description3">
+        Seamos más y más personas recibirán un plato de comida.
+    </string>
+    <string name="history_title1">Cómo funciona?</string>
+    <string name="history_description4">
+        La receta es muy simple:
+    </string>
+    <string name="history_description5">
+        1. Cocinar un plato más de comida.
+        \n2. Servirlo en un envase descartable (con cubiertos si es posible).
+        \n3. Compartirlo en un #PuntoPlato.
+    </string>
+    <string name="history_description6">
+        Un #PuntoPlato es el lugar donde dejar el plato de comida.
+    </string>
+    <string name="history_description7">
+        Es un cajón modesto, de madera, pintado de blanco, instalado en la vereda de manera visible, que invita a servirse y sumarse.
+        \nActualmente, los #PuntoPlato están instalados en distintas zonas de Buenos Aires, disponibles las 24 horas del día.
+        Eso significa que convocamos a los vecinos a servir un plato más, cualquier día de la semana, en el horario que puedan
+        (sugerimos que las comidas sean lo más nutritivas posible, dentro de las posibilidades de cada familia).
+    </string>
+    <string name="history_description8">
+        Según nuestra experiencia, la comida siempre ha sido aprovechada, no se ha desperdiciado ni tirado nada.
+        \nInvitar a vecinos, amigos y familiares a unirse, permite multiplicar los platos, con la idea de que lleguen a todo el país.
+    </string>
+    <string name="history_description9">
+        Entre todos, formamos una red cada vez más amplia, haciendo que un acto individual se transforme en una acción colectiva.
+    </string>
+    <string name="history_title2">Acerca de nosotros…</string>
+    <string name="history_description10">
+        Esta iniciativa surge de un grupo de amigos (Manuela, Romina y Bernardo) con ganas de ayudar y contagiar solidaridad.
+    </string>
+    <string name="history_description11">
+        El proyecto nace en contexto de la pandemia, de ver la realidad y dejar que nos traspase, no invisibilizarla.
+        \nTodos los días veíamos gente en la calle y dentro de containers de basura buscando comida y no quisimos convertirla
+        en hologramas, nos propusimos pensar en una manera fácil, sencilla y “contagiosa” de poder ayudar.
+    </string>
+    <string name="history_description12">
+        Si de algo hay que contagiarse en estas épocas es de solidaridad y acción!
+        \nEmpatizar con el otro y estar de su lado.
+    </string>
+
+    <!-- CONTACT FRAGMENT -->
+    <string name="contact_title">Si tenés dudas o querés conocer más y enterarte de las novedades, seguinos en Instagram o mandanos un mail!</string>
+    <string name="contact_instagram">"@servirunplatomas"</string>
+    <string name="contact_email">servir.unplatomas@gmail.com</string>
+
+</resources>
